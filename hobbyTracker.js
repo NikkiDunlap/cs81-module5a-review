@@ -49,3 +49,10 @@ console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 
 // Counts how many sessions were done while feeling "relaxed"
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+
+// Additional test: count how many sessions were done while feeling "focused"
+console.log("Focused sessions:", countMood(hobbyLog, "focused"));
+
+
+// Suggestion for improvement: The function name 'countMood' could be renamed to 'countMoodOccurrences' for more clarity.
+// It may also be helpful to generalize mood tracking with a function that returns all mood frequencies in an object.
